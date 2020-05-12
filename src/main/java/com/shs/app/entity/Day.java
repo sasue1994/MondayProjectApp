@@ -8,6 +8,10 @@ import java.io.Serializable;
 @Entity
 public class Day implements Serializable {
 
+    /**
+     *
+     */
+    private static final long serialVersionUID = -2212221066421826275L;
     @Id
     private Long id;
     private String name;
